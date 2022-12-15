@@ -8,7 +8,7 @@ const breadSeedData = require('../models/seed.js')
 breads.get('/', async (req, res) => {
   const foundBakers = await Baker.find().lean()
   const foundBreads = await Bread.find().limit(2).lean()
-  res.render('Index', {
+  res.render('index.jsx', {
     breads: foundBreads,
     bakers: foundBakers,
     title: 'Index Page'
