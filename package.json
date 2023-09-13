@@ -17,5 +17,8 @@
     "mongoose": "^5.12.9",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0"
   }
 }
